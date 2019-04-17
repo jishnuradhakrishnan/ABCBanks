@@ -68,7 +68,7 @@ public class CustomerHandler {
 
 	public void tellerOne(String customerName) throws InterruptedException {
 		// this teller needs 1 second to serve her customer
-		long tellerOneCustomerServiceTime = 3000 * 1;
+		long tellerOneCustomerServiceTime = 1000 * 1;
 		System.out.println("teller one Says: I have " + tellerOneQueue.size() + " customers");
 		while (tellerOneHaveCustomer) {
 		}
